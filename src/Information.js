@@ -34,13 +34,13 @@ export default function Information(city) {
                 <img src={icon} alt='icon' ></img>             
                 
                 <div  class = 'temperature'>
-                <p>City</p>
+                <p>City:{city1.name}</p>
                 <p>Weather: {city1.main}</p>
                 <p>Weather-level: {city1.description}</p>
                 <p>Temperature: {city1.temp}℉</p>
                 <p>Feels like: {city1.feels_like}℉</p>
                 <p>Humidity: {city1.humidity}%</p>
-                <p>{city1.name}</p>
+                
                 </div>
      		</div>
           

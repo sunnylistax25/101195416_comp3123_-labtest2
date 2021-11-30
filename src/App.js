@@ -1,6 +1,6 @@
 import './App.css';
 import Information from './Information';
-import './Information.css';
+
 
 function App() {
  
